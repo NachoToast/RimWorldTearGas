@@ -14,6 +14,7 @@
         <li>
             <packageId>NachoToast.SCGF</packageId>
             <displayName>Simple Custom Gas Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2999444522</steamWorkshopUrl>
             <downloadUrl>https://github.com/NachoToast/SimpleCustomGasFramework/releases/latest</downloadUrl>
         </li>
     </modDependencies>
