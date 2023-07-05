@@ -11,3 +11,5 @@ Find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2999466026
 ![image](1.4/Source/Media/tear_a.png)
 
 ![image](1.4/Source/Media/tear_b.png)
+
+![image](1.4/Source/Media/tear_c.png)
