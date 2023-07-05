@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Armour Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/Def[defName="TearGas"]/immunities/apparel</xpath>
+            <value>
+                <li>VAE_Headgear_HAZMATMask</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Armour Expanded</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/HediffDef[defName="NachoToast_TearGas"]/descriptionHyperlinks</xpath>
+            <value>
+                <ThingDef>VAE_Headgear_HAZMATMask</ThingDef>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>

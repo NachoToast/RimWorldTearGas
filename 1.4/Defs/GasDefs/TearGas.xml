@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <Def Class="SCGF.GasDef">
+        <defName>TearGas</defName>
+        <label>tear gas</label>
+        <color>(116, 140, 60)</color>
+        <diffusionThreshold>256</diffusionThreshold>
+        <addsHediffs>
+            <li>
+                <hediff>NachoToast_TearGas</hediff>
+                <severityGasDensityFactor>0.1</severityGasDensityFactor>
+            </li>
+        </addsHediffs>
+        <immunities>
+            <apparel>
+                <li>Apparel_GasMask</li>
+            </apparel>
+        </immunities>
+    </Def>
+
+</Defs>
