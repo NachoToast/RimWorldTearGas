@@ -38,6 +38,9 @@
                 <gasDef>TearGas</gasDef>
             </li>
         </modExtensions>
+        <researchPrerequisites>
+            <li>GasOperation</li>
+        </researchPrerequisites>
     </ThingDef>
 
 </Defs>
