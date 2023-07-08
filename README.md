@@ -1,15 +1,20 @@
-# NachoToast / RimWorld / Tear Gas
+# RimWorld / Tear Gas
 
-![image](About/preview.png)
+![image](About/Preview.png)
 
 A simple mod that adds a form of tear gas to RimWorld.
 
-This utilizes my [Simple Custom Gas Framework](https://github.com/NachoToast/SimpleCustomGasFramework).
-
 Find it [here](https://steamcommunity.com/sharedfiles/filedetails/?id=2999466026) on the Steam workshop.
 
-![image](1.4/Source/Media/tear_a.png)
+This utilizes my [Simple Custom Gas Framework](https://github.com/NachoToast/SimpleCustomGasFramework).
 
-![image](1.4/Source/Media/tear_b.png)
+See also:
 
-![image](1.4/Source/Media/tear_c.png)
+- [Knockout gas](https://github.com/NachoToast/RimWorldKnockoutGas)
+- [Gas vents](https://github.com/NachoToast/RimWorldGasVents)
+
+![image](Source/Media/tear_a.png)
+
+![image](Source/Media/tear_b.png)
+
+![image](Source/Media/tear_c.png)
