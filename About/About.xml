@@ -2,14 +2,16 @@
 <ModMetaData>
 	<name>Tear Gas</name>
 	<author>NachoToast</author>
+	<packageId>NachoToast.TearGas</packageId>
+	<modVersion>1.0.1</modVersion>
+	<url>https://github.com/NachoToast/RimWorldTearGas</url>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>NachoToast.TearGas</packageId>
 	<loadAfter>
 		<li>NachoToast.SCGF</li>
+		<li>NachoToast.GasVents</li>
 	</loadAfter>
-	<description>Create tear gas, which causes eye and respiratory pain, skin irritation, and partial blindness.</description>
     <modDependencies>
         <li>
             <packageId>NachoToast.SCGF</packageId>
@@ -18,4 +20,5 @@
             <downloadUrl>https://github.com/NachoToast/SimpleCustomGasFramework/releases/latest</downloadUrl>
         </li>
     </modDependencies>
+	<description>Create tear gas, which causes eye and respiratory pain, skin irritation, and partial blindness.</description>
 </ModMetaData>
