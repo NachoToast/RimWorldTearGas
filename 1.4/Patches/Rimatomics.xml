@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Rimatomics</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/Def[defName="TearGas"]/immunities/apparel</xpath>
+            <value>
+                <li>Apparel_RadiationMask</li>
+                <li>Apparel_MoppMaskDesert</li>
+                <li>Apparel_MoppMaskWoodland</li>
+                <li>Apparel_MoppMaskSnow</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Dubs Rimatomics</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/HediffDef[defName="NachoToast_TearGas"]/descriptionHyperlinks</xpath>
+            <value>
+                <ThingDef>Apparel_RadiationMask</ThingDef>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
