@@ -14,7 +14,7 @@
         <graphicData>
             <texPath>Things/Building/Security/IEDTearGas</texPath>
         </graphicData>
-        <uiOrder>47</uiOrder>
+        <uiOrder>48</uiOrder>
         <costList>
             <NachoToast_Shell_TearGas>2</NachoToast_Shell_TearGas>
         </costList>
