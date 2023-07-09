@@ -16,16 +16,4 @@
         </match>
     </Operation>
 
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Dubs Rimatomics</li>
-        </mods>
-        <match Class="PatchOperationAdd">
-            <xpath>Defs/HediffDef[defName="NachoToast_TearGas"]/descriptionHyperlinks</xpath>
-            <value>
-                <ThingDef>Apparel_RadiationMask</ThingDef>
-            </value>
-        </match>
-    </Operation>
-
 </Patch>
