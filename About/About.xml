@@ -3,7 +3,7 @@
 	<name>Tear Gas</name>
 	<author>NachoToast</author>
 	<packageId>NachoToast.TearGas</packageId>
-	<modVersion>1.0.2</modVersion>
+	<modVersion>1.0.3</modVersion>
 	<url>https://github.com/NachoToast/RimWorldTearGas</url>
 	<supportedVersions>
 		<li>1.4</li>

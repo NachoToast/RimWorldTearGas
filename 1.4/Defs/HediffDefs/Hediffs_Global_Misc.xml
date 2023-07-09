@@ -4,7 +4,7 @@
     <HediffDef>
         <defName>NachoToast_TearGas</defName>
         <label>tear gas</label>
-        <description>Aftereffects of exposure to tear gas. It irritates skin and causes severe pain in the eyes and lungs. Prolonged exposure can cause permanent damage.\n\nIt is not stopped by antitoxic lungs due to its different chemical makeup.\n\nAlthough it can be nullified by a gas mask, it is not stopped by antitoxic lungs due to its different chemical makeup.</description>
+        <description>Aftereffects of exposure to tear gas. It irritates skin and causes severe pain in the eyes and lungs. Prolonged exposure can cause permanent damage.\n\nAlthough it can be nullified by a gas mask, it is not stopped by antitoxic lungs due to its different chemical makeup.</description>
         <descriptionHyperlinks>
             <ThingDef>Apparel_GasMask</ThingDef>
         </descriptionHyperlinks>
