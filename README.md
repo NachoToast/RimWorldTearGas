@@ -10,8 +10,9 @@ This utilizes my [Simple Custom Gas Framework](https://github.com/NachoToast/Sim
 
 See also:
 
-- [Knockout gas](https://github.com/NachoToast/RimWorldKnockoutGas)
 - [Gas vents](https://github.com/NachoToast/RimWorldGasVents)
+- [Knockout gas](https://github.com/NachoToast/RimWorldKnockoutGas)
+- [Mustard gas](https://github.com/NachoToast/RimWorldMustardGas)
 
 ![image](Source/Media/tear_a.png)
 
