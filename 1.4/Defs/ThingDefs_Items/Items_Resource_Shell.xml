@@ -33,7 +33,7 @@
             <difficultyVar>classicMortars</difficultyVar>
             <costList>
                 <Steel>30</Steel>
-                <PsychoidLeaves>5</PsychoidLeaves>
+                <MedicineHerbal>5</MedicineHerbal>
             </costList>
         </costListForDifficulty>
         <recipeMaker>
