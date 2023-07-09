@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Apocrypha 2033 - Apparel</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/Def[defName="TearGas"]/immunities/apparel</xpath>
+            <value>
+                <li>ODZ_METRO2033_GP5Gasmask</li>
+                <li>ODZ_METRO2033_PBFGasmask</li>
+                <li>ODZ_METRO2033_PMGGasmask</li>
+                <li>ODZ_METRO2033_PMK2Gasmask</li>
+                <li>ODZ_METRO2033_PPM88Gasmask</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
