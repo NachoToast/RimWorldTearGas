@@ -13,9 +13,9 @@
             </li>
         </addsHediffs>
         <immunities>
-            <apparel>
-                <li>Apparel_GasMask</li>
-            </apparel>
+            <apparelPresets>
+                <li>FaceCoveringThick</li>
+            </apparelPresets>
         </immunities>
     </Def>
 
