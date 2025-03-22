@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <SCGF.GasDef ParentName="GasBase">
+        <defName>TearGas</defName>
+        <label>tear gas</label>
+        <color>(205, 140, 60)</color>
+
+        <actions>
+            <li Class="SCGF.Actions.ApplyHediff">
+                <hediffDef>NachoToast_TearGas</hediffDef>
+                <severityPerTick>0.2</severityPerTick>
+            </li>
+        </actions>
+    </SCGF.GasDef>
+
+</Defs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="GasVent_Base">
+        <defName>GasVent_TearGas</defName>
+        <label>gas vent (tear gas)</label>
+        <description>A vent that can be loaded with tear gas shells to produce tear gas when powered.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_TearGas</HediffDef>
+        </descriptionHyperlinks>
+
+        <graphicData>
+            <texPath>Things/Building/Security/GasVent_TearGas</texPath>
+        </graphicData>
+
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelCapacity>50</fuelCapacity>
+                <fuelMultiplier>10</fuelMultiplier>
+                <fuelLabel>Tear gas shells</fuelLabel>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+                <autoRefuelPercent>0.8</autoRefuelPercent>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <showFuelGizmo>true</showFuelGizmo>
+
+                <fuelFilter>
+                    <thingDefs>
+                        <li>NachoToast_Shell_TearGas</li>
+                    </thingDefs>
+                </fuelFilter>
+            </li>
+        </comps>
+
+        <modExtensions>
+            <li Class="GasVents.IdentifyingGas">
+                <gasDef>TearGas</gasDef>
+            </li>
+        </modExtensions>
+
+    </ThingDef>
+
+</Defs>

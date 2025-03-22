@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <!-- tear gas shell -->
+
+    <!-- based on Shell_Smoke -->
+    <ThingDef ParentName="MakeableShellBase">
+        <defName>NachoToast_Shell_TearGas</defName>
+        <label>tear gas shell</label>
+        <description>A shell that releases a cloud of tear gas when detonated. Can be fired from mortars or installed as a trap. Explodes when damaged.</description>
+        <descriptionHyperlinks>
+            <HediffDef>NachoToast_TearGas</HediffDef>
+        </descriptionHyperlinks>
+        <possessionCount>2</possessionCount>
+        <graphicData>
+            <texPath>Things/Item/Resource/Shell/Shell_TearGas</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveDamageType>Smoke</explosiveDamageType>
+                <explosiveRadius>11</explosiveRadius>
+                <wickTicks>30~60</wickTicks>
+            </li>
+        </comps>
+        <projectileWhenLoaded>NachoToast_Bullet_Shell_TearGas</projectileWhenLoaded>
+        <costList>
+            <Steel>10</Steel>
+            <MedicineHerbal>5</MedicineHerbal>
+        </costList>
+        <costListForDifficulty>
+            <difficultyVar>classicMortars</difficultyVar>
+            <costList>
+                <Steel>30</Steel>
+                <MedicineHerbal>5</MedicineHerbal>
+            </costList>
+        </costListForDifficulty>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>Mortars</li>
+                <li>GasOperation</li>
+            </researchPrerequisites>
+            <displayPriority>131</displayPriority>
+        </recipeMaker>
+        <modExtensions>
+            <li Class="SCGF.CustomGasExtension">
+                <gasDef>TearGas</gasDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- based on Bullet_Shell_Smoke -->
+    <ThingDef ParentName="BaseBullet">
+        <defName>NachoToast_Bullet_Shell_TearGas</defName>
+        <label>tear gas shell</label>
+        <graphicData>
+            <texPath>Things/Projectile/ShellTearGas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Smoke</damageDef>
+            <speed>41</speed>
+            <explosionRadius>7.2</explosionRadius>
+            <flyOverhead>true</flyOverhead>
+            <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+            <soundExplode>Explosion_Smoke</soundExplode>
+            <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+            <soundAmbient>MortarRound_Ambient</soundAmbient>
+        </projectile>
+        <modExtensions>
+            <li Class="SCGF.CustomGasExtension">
+                <gasDef>TearGas</gasDef>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>
