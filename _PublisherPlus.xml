@@ -2,7 +2,7 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>LICENSE</exclude>
+    <exclude>.vscode</exclude>
     <exclude>README.md</exclude>
     <exclude>Source</exclude>
   </Excluded>

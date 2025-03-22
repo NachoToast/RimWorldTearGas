@@ -19,7 +19,7 @@
         </graphicData>
         <comps>
             <li Class="CompProperties_Explosive">
-                <explosiveDamageType>Smoke</explosiveDamageType>
+                <explosiveDamageType>NachoToast_TearGasSmoke</explosiveDamageType>
                 <explosiveRadius>11</explosiveRadius>
                 <wickTicks>30~60</wickTicks>
             </li>
@@ -43,11 +43,6 @@
             </researchPrerequisites>
             <displayPriority>131</displayPriority>
         </recipeMaker>
-        <modExtensions>
-            <li Class="SCGF.CustomGasExtension">
-                <gasDef>TearGas</gasDef>
-            </li>
-        </modExtensions>
     </ThingDef>
 
     <!-- based on Bullet_Shell_Smoke -->
@@ -61,7 +56,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Smoke</damageDef>
+            <damageDef>NachoToast_TearGasSmoke</damageDef>
             <speed>41</speed>
             <explosionRadius>7.2</explosionRadius>
             <flyOverhead>true</flyOverhead>
@@ -70,11 +65,6 @@
             <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
             <soundAmbient>MortarRound_Ambient</soundAmbient>
         </projectile>
-        <modExtensions>
-            <li Class="SCGF.CustomGasExtension">
-                <gasDef>TearGas</gasDef>
-            </li>
-        </modExtensions>
     </ThingDef>
 
 </Defs>

@@ -92,7 +92,7 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <speed>40</speed>
-            <damageDef>Smoke</damageDef>
+            <damageDef>NachoToast_TearGasSmoke</damageDef>
             <!-- Use default damage from explosion def -->
             <explosionRadius>2.4</explosionRadius>
             <ai_IsIncendiary>true</ai_IsIncendiary>
@@ -100,11 +100,6 @@
             <shadowSize>0.6</shadowSize>
             <screenShakeFactor>0.5</screenShakeFactor>
         </projectile>
-        <modExtensions>
-            <li Class="SCGF.CustomGasExtension">
-                <gasDef>TearGas</gasDef>
-            </li>
-        </modExtensions>
     </ThingDef>
 
 </Defs>

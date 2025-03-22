@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <!-- based on DamageDef Smoke -->
+    <DamageDef>
+        <defName>NachoToast_TearGasSmoke</defName>
+        <label>tear gas</label>
+        <canInterruptJobs>false</canInterruptJobs>
+        <makesBlood>false</makesBlood>
+        <defaultDamage>0</defaultDamage>
+        <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+        <explosionColorEdge>(205, 140, 60, 13)</explosionColorEdge>
+        <harmsHealth>false</harmsHealth>
+        <soundExplosion>Explosion_Smoke</soundExplosion>
+        <combatLogRules>Damage_Smoke</combatLogRules>
+        <modExtensions>
+            <li Class="SCGF.CustomGasExtension">
+                <gasDef>TearGas</gasDef>
+            </li>
+        </modExtensions>
+    </DamageDef>
+
+</Defs>
