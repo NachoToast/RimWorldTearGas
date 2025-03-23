@@ -7,6 +7,14 @@
         <label>tear gas</label>
         <color>(242, 162, 120)</color>
 
+        <immunityWhen Inherit="False">
+            <li Class="SCGF.Filters.ProtectiveApparel">
+                <types>
+                    <li>Face</li>
+                </types>
+            </li>
+        </immunityWhen>
+
         <actions>
             <li Class="SCGF.Actions.ApplyHediff">
                 <hediffDef>NachoToast_TearGas</hediffDef>
