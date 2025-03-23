@@ -10,7 +10,7 @@
         <makesBlood>false</makesBlood>
         <defaultDamage>0</defaultDamage>
         <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
-        <explosionColorEdge>(205, 140, 60, 13)</explosionColorEdge>
+        <explosionColorEdge>(242, 162, 120, 13)</explosionColorEdge>
         <harmsHealth>false</harmsHealth>
         <soundExplosion>Explosion_Smoke</soundExplosion>
         <combatLogRules>Damage_Smoke</combatLogRules>

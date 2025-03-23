@@ -5,7 +5,7 @@
     <SCGF.GasDef ParentName="GasBase">
         <defName>TearGas</defName>
         <label>tear gas</label>
-        <color>(205, 140, 60)</color>
+        <color>(242, 162, 120)</color>
 
         <actions>
             <li Class="SCGF.Actions.ApplyHediff">
